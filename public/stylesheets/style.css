@@ -1,0 +1,88 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.navbars{
+  background: #002f34 !important;
+}
+
+.navbars .navbar-brand{
+  color:  #24e5db;
+  font-size: 30px;
+  font-weight: 900;
+}
+.navbar{
+  justify-content: space-between !important;
+}
+.collapse{
+  flex-grow: unset !important;
+}
+.formFor{
+  width: 50%;
+}
+img{
+  width: 100%;
+  max-width: 100%;
+  height: 200px !important;
+}
+
+.card{
+  width: 100%;
+  padding: 10px;
+}
+.card .card-img{
+  width: 100%;
+  height: 200px;
+  background: #000;
+}
+
+.card .card-text h3{
+  padding: 15px 0px;
+  text-transform: capitalize;
+  font-size:25px;
+  font-weight: 700;
+}
+
+.card .card-text .price_box,
+.card_bottom
+{
+  display: flex;
+  justify-content: space-around;
+}
+
+.card img{
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+
+.saleing{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 30px;
+  height: 30px;
+  background: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+
+
+body {
+   
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
